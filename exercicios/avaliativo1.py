@@ -15,6 +15,6 @@ valor_produto = returnNumberOrThrowIfNot(input())
 valor_desconto = valor_produto * 0.1
 valor_final = valor_produto - valor_desconto
 
-print(f"Valor do Produto  = {valor_produto:.2f}")
-print(f"Valor do Desconto = {valor_desconto:.2f}")
-print(f"Valor Final       = {valor_final:.2f}")
+print(f"Valor do Produto  = R$ {valor_produto:.2f}")
+print(f"Valor do Desconto = R$ {valor_desconto:.2f}")
+print(f"Valor Final       = R$ {valor_final:.2f}")
